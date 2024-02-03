@@ -7,9 +7,30 @@
   --main-font: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+  font-family: var(--main-font);
+}
+
+h1 {
+  font-size: 60px;
+  font-family: "Major Mono Display", monospace;
+  color: var(--color-dark);
+}
+
+h2 {
+  text-align: left;
+}
+
+p {
+  text-align: justify;
+}
+
+footer {
+  color: var(--color-dark);
+}
+
 .header {
   background-color: var(--color-1);
-  background-size: cover;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -20,14 +41,16 @@
 }
 
 .architecture {
+  display: flex;
+  align-self: stretch;
   text-align: center;
-  width: 50%;
   background-color: var(--color-2);
 }
 
 .frontend {
+  display: flex;
+  align-self: stretch;
   text-align: center;
-  width: 50%;
   background-color: var(--color-3);
 }
 
@@ -69,7 +92,7 @@
 }
 
 .project-link {
-  color: black;
+  color: var(--color-dark);
   text-decoration: none;
 }
 
@@ -104,24 +127,6 @@
   height: 150px;
   margin-top: -150px;
   visibility: hidden;
-}
-
-body {
-  font-family: var(--main-font);
-}
-
-h1 {
-  font-size: 60px;
-  font-family: "Major Mono Display", monospace;
-  color: var(--color-dark);
-}
-
-h2 {
-  text-align: left;
-}
-
-p {
-  text-align: justify;
 }
 
 @media (max-width: 576px) {
