@@ -74,11 +74,23 @@ a {
 }
 
 .frontend-link-hover {
-  background-color: red;
+  background-image: linear-gradient(
+      rgba(221, 238, 223, 0.7),
+      rgba(221, 238, 223, 0.7)
+    ),
+    url(/images/frontend.jpg);
+  background-size: cover;
+  background-position: bottom;
 }
 
 .architecture-link-hover {
-  background-color: blue;
+  background-image: linear-gradient(
+      rgba(182, 205, 189, 0.7),
+      rgba(182, 205, 189, 0.7)
+    ),
+    url(/images/arch.jpg);
+  background-size: cover;
+  background-position: bottom;
 }
 
 .intro-text {
