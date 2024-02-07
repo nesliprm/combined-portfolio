@@ -74,6 +74,7 @@ a {
 }
 
 .frontend-link-hover {
+  transition: 1s ease;
   background-image: linear-gradient(
       rgba(221, 238, 223, 0.7),
       rgba(221, 238, 223, 0.7)
@@ -81,14 +82,17 @@ a {
     url(/images/frontend.jpg);
   background-size: cover;
   background-position: bottom;
+  color: white;
 }
 
 .architecture-link-hover {
+  transition: 1s ease;
   background-image: linear-gradient(
       rgba(182, 205, 189, 0.7),
       rgba(182, 205, 189, 0.7)
     ),
     url(/images/arch.jpg);
+
   background-size: cover;
   background-position: bottom;
 }
