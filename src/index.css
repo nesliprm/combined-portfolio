@@ -1,9 +1,9 @@
 :root {
   --color-dark: rgb(20, 20, 20);
-  --color-light: rgb(250, 250, 250);
-  --color-1: #f2f9f1;
-  --color-2: #ddeedf;
-  --color-3: #b6cdbd;
+  --color-1: #ffffff;
+  --color-2: #7fa99b;
+  --color-3: #fdc57b;
+  --color-underline: #fbf2d5;
   --main-font: Verdana, Geneva, Tahoma, sans-serif;
   --accent-font: "Major Mono Display", monospace;
 }
@@ -76,20 +76,19 @@ a {
 .frontend-link-hover {
   transition: 1s ease;
   background-image: linear-gradient(
-      rgba(221, 238, 223, 0.7),
-      rgba(221, 238, 223, 0.7)
+      rgba(127, 169, 155, 0.5),
+      rgba(127, 169, 155, 0.5)
     ),
     url(/images/frontend.jpg);
   background-size: cover;
   background-position: bottom;
-  color: white;
 }
 
 .architecture-link-hover {
   transition: 1s ease;
   background-image: linear-gradient(
-      rgba(182, 205, 189, 0.7),
-      rgba(182, 205, 189, 0.7)
+      rgba(253, 197, 123, 0.5),
+      rgba(253, 197, 123, 0.5)
     ),
     url(/images/arch.jpg);
 
@@ -108,7 +107,7 @@ a {
 .active {
   text-decoration: underline;
   text-decoration-thickness: 3px;
-  text-decoration-color: #ffc107;
+  text-decoration-color: var(--color-underline);
   text-underline-offset: 5px;
 }
 
@@ -123,7 +122,7 @@ a {
 .nav-link:hover {
   text-decoration: underline;
   text-decoration-thickness: 3px;
-  text-decoration-color: #ffc107;
+  text-decoration-color: var(--color-underline);
   text-underline-offset: 5px;
 }
 

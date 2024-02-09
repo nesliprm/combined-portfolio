@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>nesli codes | Nesli Parmaksizoglu • projects</title>
+    <title>Nesli Parmaksizoglu • front-end developer</title>
     <meta charset="UTF-8" />
     <link rel="icon" href="/images/np-icon.ico" />
     <meta
       name="description"
-      content="Nesli Parmaksizoglu - Front-end Developer based in Amsterdam - Projects"
+      content="Nesli Parmaksizoglu - Architect and Front-end Developer based in Amsterdam"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -34,9 +34,7 @@
     <link href="/src/frontend.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg bg-body-tertiary ps-md-4 pe-md-4 fixed-top"
-    >
+    <nav class="navbar navbar-expand-lg nav-body ps-md-4 pe-md-4 fixed-top">
       <div class="container-fluid">
         <div class="d-flex flex-grow-1 align-items-center">
           <a
@@ -44,7 +42,7 @@
             href="/index.html"
             title="Nesli Parmaksizoglu: main"
             ><img
-              src="/images/np-logo-v2.png"
+              src="/images/np-logo-v2-invert.png"
               alt="NP logo"
               width="120px"
               class="np-logo"
@@ -71,18 +69,10 @@
                 aria-current="page"
                 href="/index.html"
                 title="go to main"
-                >home</a
+                >main</a
               >
             </li>
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="/projects.html"
-                title="projects"
-                >projects</a
-              >
-            </li>
+
             <li class="nav-item">
               <a class="nav-link" href="/about.html" title="about">about</a>
             </li>
@@ -97,7 +87,7 @@
     </nav>
 
     <div class="container text-center mt-5" id="page-top">
-      <h1 class="title">PROJECTS</h1>
+      <h1 class="title">WORK</h1>
       <div class="back-to-main xs-text mt-3 font-monospace">
         <a
           href="/index.html"
@@ -106,9 +96,8 @@
           >back to main</a
         >
       </div>
-      <br />
+
       <div class="container text-center mt-5">
-        <h4>please select from the list:</h4>
         <div class="mt-3">
           <a href="/projects.html#weather-app" class="project-link"
             >Weather App</a
@@ -130,12 +119,11 @@
           >
         </div>
 
-<div>
+        <div>
           <a href="/projects.html#dangergrid" class="project-link"
             >DangerGrid Game</a
           >
         </div>
-
       </div>
       <br />
       <br />
@@ -144,14 +132,19 @@
       </div>
 
       <div class="container mt-5 text-left">
+        <!--WEATHER APP----------------------------------------------------->
         <div id="weather-app" class="row mb-5 d-flex justify-content-center">
           <div class="col-md-6">
-            <img
-              src="/images/project-weather.jpg"
-              alt="A screenshot of the weather app"
-              width="100%"
-              class="img-fluid rounded-3 mb-3 border border-light-subtle shadow-sm"
-            />
+            <a
+              href="https://resonant-entremet-1e244a.netlify.app/"
+              target="_blank"
+              title="launch the app"
+              ><img
+                src="/images/project-weather.jpg"
+                alt="A screenshot of the weather app"
+                width="100%"
+                class="img-fluid rounded-3 mb-3 border border-light-subtle shadow-sm"
+            /></a>
           </div>
           <div class="col-md-6">
             <h2 class="mb-4">Weather App</h2>
@@ -171,31 +164,25 @@
               >
               was built in React.
             </p>
-            <button
-              type="button"
-              class="d-block btn btn-outline-warning btn-sm mb-3 work-button"
-            >
-              <a
-                href="https://resonant-entremet-1e244a.netlify.app/"
-                target="_blank"
-                class="link-dark text-decoration-none"
-                title="launch the app"
-                >launch the app</a
-              >
-            </button>
+            <p class="work-info">Click on the image to launch the app.</p>
           </div>
-          
         </div>
         <br />
         <br />
+
+        <!--BYTEBAR------------------------------------------------------------------>
         <div id="bytebar" class="row mb-5 d-flex justify-content-center">
           <div class="col-md-6">
-            <img
-              src="/images/project-bytebar.jpg"
-              alt="A screenshot of the ByteBar"
-              width="100%"
-              class="img-fluid rounded-3 mb-3 border border-light-subtle shadow-sm"
-            />
+            <a
+              href="https://bytebar.netlify.app/"
+              target="_blank"
+              title="launch the app"
+              ><img
+                src="/images/project-bytebar.jpg"
+                alt="A screenshot of the ByteBar"
+                width="100%"
+                class="img-fluid rounded-3 mb-3 border border-light-subtle shadow-sm"
+            /></a>
           </div>
           <div class="col-md-6">
             <h2 class="mb-4">ByteBar: AI Cocktail Generator</h2>
@@ -207,31 +194,25 @@
               more ingredients that user enters. The app is optimized also for
               mobile devices.
             </p>
-            <button
-              type="button"
-              class="d-block btn btn-outline-warning btn-sm mb-3 work-button"
-            >
-              <a
-                href="https://bytebar.netlify.app/"
-                target="_blank"
-                class="link-dark text-decoration-none"
-                title="launch the app"
-                >launch the app</a
-              >
-            </button>
+            <p class="work-info">Click on the image to launch the app.</p>
           </div>
-          
         </div>
         <br />
         <br />
+
+        <!--WORLD CLOCK------------------------------------------------------------------>
         <div id="world-clock" class="row mb-5 d-flex justify-content-center">
           <div class="col-md-6">
-            <img
-              src="/images/project-worldclock.jpg"
-              alt="A screenshot of the World Clock"
-              width="100%"
-              class="img-fluid rounded-3 mb-3 border border-light-subtle shadow-sm"
-            />
+            <a
+              href="https://admirable-fudge-c76d86.netlify.app/"
+              target="_blank"
+              title="launch the app"
+              ><img
+                src="/images/project-worldclock.jpg"
+                alt="A screenshot of the World Clock"
+                width="100%"
+                class="img-fluid rounded-3 mb-3 border border-light-subtle shadow-sm"
+            /></a>
           </div>
           <div class="col-md-6">
             <h2 class="mb-4">World Clock App</h2>
@@ -240,31 +221,25 @@
               A clock app in am/pm format, showing two default locations,
               including a dropdown list of some big cities.
             </p>
-            <button
-              type="button"
-              class="d-block btn btn-outline-warning btn-sm mb-3 work-button"
-            >
-              <a
-                href="https://admirable-fudge-c76d86.netlify.app/"
-                target="_blank"
-                class="link-dark text-decoration-none"
-                title="launch the app"
-                >launch the app</a
-              >
-            </button>
+            <p class="work-info">Click on the image to launch the app.</p>
           </div>
-          
         </div>
         <br />
         <br />
+
+        <!--FRIDAY FIVE------------------------------------------------------------------>
         <div id="friday-five" class="row mb-5 d-flex justify-content-center">
           <div class="col-md-6">
-            <img
-              src="/images/project-f5oc.jpg"
-              alt="A screenshot of the homepage"
-              width="100%"
-              class="img-fluid rounded-3 mb-3 border border-light-subtle shadow-sm"
-            />
+            <a
+              href="https://gorgeous-genie-9d01b0.netlify.app/"
+              target="_blank"
+              title="go to website"
+              ><img
+                src="/images/project-f5oc.jpg"
+                alt="A screenshot of the homepage"
+                width="100%"
+                class="img-fluid rounded-3 mb-3 border border-light-subtle shadow-sm"
+            /></a>
           </div>
           <div class="col-md-6">
             <h2 class="mb-4">Homepage for F5oC</h2>
@@ -274,101 +249,68 @@
               a new cocktail every Friday. The site is also optimized for mobile
               devices.
             </p>
-            <button
-              type="button"
-              class="d-block btn btn-outline-warning btn-sm mb-3 work-button"
-            >
-              <a
-                href="https://gorgeous-genie-9d01b0.netlify.app/"
-                target="_blank"
-                class="link-dark text-decoration-none"
-                title="go to website"
-                >go to website</a
-              >
-            </button>
+            <p class="work-info">Click on the image to visit the page.</p>
           </div>
-          
         </div>
-        <div id="dangergrid" class="row mb-5 d-flex justify-content-center"><div class="col-md-6">
-            <img
-              src="/images/project-dangergrid.jpg"
-              alt="A screenshot of the start screen"
-              width="100%"
-              class="img-fluid rounded-3 mb-3 border border-light-subtle shadow-sm"
-            />
-          </div>
-        <div class="col-md-6">
-          <h2 class="mb-4">DangerGrid</h2>
-          <p class="work-data mt-0 mb-1">built with HTML+CSS & JS</p>
-          <p class="work-info">
-            A simple point and click game based on Microsoft's Minesweeper.
-          </p>
-          <button
-            type="button"
-            class="d-block btn btn-outline-warning btn-sm mb-3 work-button"
-          >
+
+        <!--DANGERGRID------------------------------------------------------------------>
+        <div id="dangergrid" class="row mb-5 d-flex justify-content-center">
+          <div class="col-md-6">
             <a
               href="https://dangergrid-game.netlify.app/"
               target="_blank"
-              class="link-dark text-decoration-none"
               title="launch the game"
-              >launch the game</a
-            >
-          </button>
-        </div>
-        
-        </div>
-
-        
-      
-    </div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <div class="container footer-main fixed-bottom pt-1 pb-1">
-      <footer class="text-center font-monospace xs-text">
-        <div class="text-center font-monospace xs-text mt-3">
-            <a
-              href="/projects.html#page-top"
-              class="link-dark text-decoration-none"
-              >scroll back to top ↑</a
-            >
+              ><img
+                src="/images/project-dangergrid.jpg"
+                alt="A screenshot of the start screen"
+                width="100%"
+                class="img-fluid rounded-3 mb-3 border border-light-subtle shadow-sm"
+            /></a>
           </div>
-          <br>
-        <div class="mb-1">
-          site built by ▼ Nesli Parmaksizoglu and open sourced on
-          <a
-            href="https://github.com/nesliprm/portfolio-frontend"
-            target="_blank"
-            class="link-dark"
-            >GitHub</a
-          >.
+          <div class="col-md-6">
+            <h2 class="mb-4">DangerGrid</h2>
+            <p class="work-data mt-0 mb-1">built with HTML+CSS & JS</p>
+            <p class="work-info">
+              A simple point and click game based on Microsoft's Minesweeper.
+            </p>
+            <p class="work-info">Click on the image to launch the game.</p>
+          </div>
         </div>
-        <div class="social-icons">
-          <a
-            href="mailto:nesliparma@gmail.com"
-            title="nesliparma@gmail.com"
-            class="link-dark"
-            ><i class="fa-regular fa-envelope"></i
-          ></a>
-          <a
-            href="https://github.com/nesliprm"
-            target="_blank"
-            title="GitHub"
-            class="link-dark"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-          <a
-            href="https://www.linkedin.com/in/nesliprm/"
-            target="_blank"
-            title="Linkedin"
-            class="link-dark"
-            ><i class="fa-brands fa-linkedin-in"></i
-          ></a>
-        </div>
-      </footer>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <div class="footer-main fixed-bottom pt-1 pb-1">
+        <footer class="text-center font-monospace xs-text">
+          <div class="mb-1">site built by ▼ Nesli Parmaksizoglu</div>
+
+          <div class="social-icons">
+            <a
+              href="mailto:nesliparma@gmail.com"
+              title="nesliparma@gmail.com"
+              class="link-dark"
+              ><i class="fa-regular fa-envelope"></i
+            ></a>
+
+            <a
+              href="https://www.linkedin.com/in/nesliprm/"
+              target="_blank"
+              title="Linkedin"
+              class="link-dark"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+
+            <a
+              href="https://github.com/nesliprm"
+              target="_blank"
+              title="GitHub"
+              class="link-dark"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </footer>
+      </div>
     </div>
-    
   </body>
 </html>
