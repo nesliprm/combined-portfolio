@@ -4,13 +4,12 @@
   --color-2: #7fa99b;
   --color-3: #fdc57b;
   --color-underline: #fbf2d5;
-  --main-font: Verdana, Geneva, Tahoma, sans-serif;
   --accent-font: "Major Mono Display", monospace;
 }
 
 body {
   background-color: var(--color-1);
-  font-family: var(--main-font);
+
   margin: 0;
   height: 1080px; /* Set body height to full viewport height */
   display: flex;
@@ -52,7 +51,7 @@ a {
 }
 
 .header {
-  padding: 120px 0px;
+  padding: 100px 0px 100px;
 }
 
 .frontend {
@@ -104,21 +103,6 @@ a {
   max-width: 800px;
 }
 
-.active {
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
-  text-decoration-color: var(--color-underline);
-  text-underline-offset: 5px;
-}
-
-.contact-text {
-  text-align: left;
-}
-
-.fa-location-dot {
-  font-size: 12px;
-}
-
 .nav-link:hover {
   text-decoration: underline;
   text-decoration-thickness: 3px;
@@ -146,17 +130,6 @@ a {
   font-size: 14px;
 }
 
-.work-data {
-  font-size: 14px;
-  font-weight: bold;
-  line-height: normal;
-}
-
-.work-info {
-  font-size: 14px;
-  line-height: normal;
-}
-
 .xs-text {
   font-size: 12px;
 }
@@ -170,24 +143,21 @@ a {
 }
 
 @media (max-width: 576px) {
+  .header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .project-link {
+    font-size: 14px;
+  }
+
   .intro-text {
     margin: 20px 0;
   }
 
-  .contact-text {
-    text-align: center;
-  }
-
-  .intro-title {
-    font-size: 12px;
-  }
-
   .name {
     font-size: 72px;
-  }
-
-  .portrait-pic {
-    margin-top: 20px;
   }
 
   .surname {
@@ -196,16 +166,9 @@ a {
     font-weight: bold;
   }
 
-  .work-data {
+  .frontend,
+  .architecture {
     text-align: center;
-  }
-
-  .work-image {
-    display: none;
-  }
-
-  h2 {
-    text-align: center;
-    margin-top: 30px;
+    height: 200px;
   }
 }

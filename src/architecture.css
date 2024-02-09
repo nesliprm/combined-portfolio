@@ -4,7 +4,7 @@
   --color-2: #7fa99b;
   --color-3: #fdc57b;
   --color-underline: #fbf2d5;
-  --main-font: Verdana, Geneva, Tahoma, sans-serif;
+
   --accent-font: "Major Mono Display", monospace;
 }
 
@@ -85,6 +85,10 @@
 
 .xs-text {
   font-size: 12px;
+}
+
+.xxs-text {
+  font-size: 10px;
 }
 
 #page-top::before {
