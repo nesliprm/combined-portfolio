@@ -30,6 +30,14 @@ a {
   text-decoration: none;
 }
 
+.np-logo {
+  transition: all 0.1s ease-in-out;
+}
+
+.np-logo:hover {
+  width: 40px;
+}
+
 .footer-main {
   background-color: var(--color-1);
 }
