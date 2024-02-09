@@ -8,6 +8,12 @@
   --accent-font: "Major Mono Display", monospace;
 }
 
+.sub-title {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: var(--accent-font);
+}
+
 .nav-body {
   background-color: var(--color-2);
 }
@@ -139,6 +145,10 @@ p {
 }
 
 @media (max-width: 576px) {
+  .sub-title {
+    font-size: 14px;
+  }
+
   .contact-text {
     text-align: center;
   }

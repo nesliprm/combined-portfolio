@@ -12,6 +12,12 @@
   background-color: var(--color-3);
 }
 
+.sub-title {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: var(--accent-font);
+}
+
 .active {
   text-decoration: underline;
   text-decoration-thickness: 3px;
@@ -32,7 +38,7 @@
 }
 
 .footer-main {
-  background-color: white;
+  background-color: var(--color-1);
 }
 
 .intro-text {
@@ -117,6 +123,9 @@ p {
 }
 
 @media (max-width: 576px) {
+  .sub-title {
+    font-size: 14px;
+  }
   .contact-text {
     text-align: center;
   }
