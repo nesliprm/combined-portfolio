@@ -111,10 +111,10 @@ a {
   max-width: 800px;
 }
 
-.nav-link:hover {
+.active {
   text-decoration: underline;
   text-decoration-thickness: 3px;
-  text-decoration-color: var(--color-underline);
+  text-decoration-color: var(--color-dark);
   text-underline-offset: 5px;
 }
 

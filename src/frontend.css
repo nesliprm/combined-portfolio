@@ -42,21 +42,6 @@
   max-width: 900px;
 }
 
-.fa-location-dot {
-  font-size: 12px;
-}
-
-.intro-text {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  max-width: 600px;
-  padding-bottom: 10px;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-decoration-color: var(--color-dark);
-}
-
 .np-logo {
   opacity: 0.9;
 }
