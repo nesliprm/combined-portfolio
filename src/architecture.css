@@ -12,6 +12,22 @@
   background-color: var(--color-3);
 }
 
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: var(--color-1);
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: var(--color-1);
+  text-underline-offset: 5px;
+}
+
+.navbar-toggler {
+  color: white;
+}
+
 .sub-title {
   font-size: 18px;
   font-weight: bold;
@@ -50,13 +66,6 @@
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-decoration-color: var(--color-dark);
-}
-
-.nav-link:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
-  text-decoration-color: var(--color-dark);
-  text-underline-offset: 5px;
 }
 
 .np-logo {
