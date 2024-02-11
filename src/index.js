@@ -16,7 +16,7 @@ arch.addEventListener("mouseleave", hideImageArch);
 //}
 
 function showImageFrontEnd() {
-  frontEnd.classList.add("frontend-link-hover", "white-text");
+  frontEnd.classList.add("frontend-link-hover");
 }
 
 function hideImageFrontEnd() {
