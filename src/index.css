@@ -58,7 +58,7 @@ a {
 }
 
 .header {
-  padding: 100px 0px 100px;
+  padding: 120px 0px 60px;
 }
 
 .frontend {
@@ -103,10 +103,9 @@ a {
 }
 
 .intro-text {
-  font-size: 14px;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  margin: 20px auto;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px auto;
   max-width: 800px;
 }
 
@@ -150,6 +149,10 @@ a {
 }
 
 @media (max-width: 576px) {
+  .text-end {
+    margin-top: -36px;
+  }
+
   .header {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -160,7 +163,8 @@ a {
   }
 
   .intro-text {
-    margin: 20px 0;
+    width: 80%;
+    font-size: 12px;
   }
 
   .name {
