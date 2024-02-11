@@ -54,6 +54,10 @@
   font-size: 12px;
 }
 
+.xxs-text {
+  font-size: 10px;
+}
+
 #page-top::before {
   content: "";
   display: block;
