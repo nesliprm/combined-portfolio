@@ -104,6 +104,13 @@
   background-color: var(--color-1);
 }
 
+.active {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: var(--color-1);
+  text-underline-offset: 5px;
+}
+
 body {
   margin-top: 150px;
 }
