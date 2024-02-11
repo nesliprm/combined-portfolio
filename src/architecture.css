@@ -80,7 +80,7 @@
 .project-link:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
-  text-decoration-color: var(--color-dark);
+  text-decoration-color: var(--color-3);
 }
 
 .social-icons {

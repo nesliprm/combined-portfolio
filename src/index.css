@@ -9,7 +9,6 @@
 
 body {
   background-color: var(--color-1);
-
   margin: 0;
   height: 1080px; /* Set body height to full viewport height */
   display: flex;
