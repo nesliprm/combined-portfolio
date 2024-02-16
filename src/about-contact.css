@@ -12,6 +12,10 @@
   background-color: var(--color-1);
 }
 
+.navbar-toggler {
+  border: none;
+}
+
 .about-text {
   font-size: 14px;
 }
@@ -83,7 +87,7 @@ p {
   text-align: justify;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 912px) {
   .work-image {
     display: none;
   }
