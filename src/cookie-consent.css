@@ -1,0 +1,55 @@
+:root {
+  --color-dark: rgb(20, 20, 20);
+  --color-1: #ffffff;
+  --color-2: #7fa99b;
+  --color-3: #fdc57b;
+  --color-underline: #fbf2d5;
+  --accent-font: "Major Mono Display", monospace;
+}
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.85);
+  color: var(--color-dark);
+  padding: 1em 1.5em;
+  font-size: 14px;
+  z-index: 9999;
+  display: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cookie-banner a {
+  color: var(--color-dark);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cookie-banner a:hover {
+  text-decoration: underline;
+}
+
+.cookie-button {
+  background: var(--color-dark);
+  color: var(--color-1);
+  font-weight: bold;
+  padding: 0.5em 1.2em;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-sizing: border-box;
+}
+
+.cookie-button:hover {
+  background: var(--color-1);
+  color: var(--color-dark);
+  border: 1px solid var(--color-dark);
+}

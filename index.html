@@ -43,6 +43,7 @@
   />
 
   <link href="/src/index.css" rel="stylesheet" type="text/css" />
+  <link href="/src/cookie-consent.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -195,44 +196,12 @@ Made Easy - Statcounter"
   <!-- End of Statcounter Code -->
 
   <!-- cookie consent code -->
-  <div
-    id="cookie-banner"
-    style="
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: #333;
-      color: #fff;
-      padding: 1em;
-      font-size: 0.9em;
-      z-index: 9999;
-      display: none;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-    "
-  >
-    <div>
+  <div id="cookie-banner" class="cookie-banner">
+    <div class="cookie-text">
       This site uses cookies for analytics via Statcounter.
-      <a href="https://statcounter.com" target="_blank" style="color: #ffd700"
-        >Learn more</a
-      >.
+      <a href="https://statcounter.com" target="_blank">Learn more</a>.
     </div>
-    <button
-      id="accept-cookies"
-      style="
-        background: #ffd700;
-        color: #333;
-        border: none;
-        padding: 0.5em 1em;
-        margin-left: 1em;
-        cursor: pointer;
-        font-weight: bold;
-      "
-    >
-      Accept
-    </button>
+    <button id="accept-cookies" class="cookie-button">Accept</button>
   </div>
 
   <!-- cookie consent code -->
