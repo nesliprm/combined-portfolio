@@ -168,7 +168,7 @@
 
   <!-- Default Statcounter code for nesli.online
 https://nesli.online/ -->
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     var sc_project = 12967848;
     var sc_invisible = 1;
     var sc_security = "0629e2f6";
@@ -191,7 +191,51 @@ Made Easy - Statcounter"
           alt="Web Analytics Made Easy - Statcounter"
           referrerpolicy="no-referrer-when-downgrade"
       /></a></div
-  ></noscript>
+  ></noscript> -->
   <!-- End of Statcounter Code -->
-  <script src="./src/index.js"></script>
+
+  <!-- cookie consent code -->
+  <div
+    id="cookie-banner"
+    style="
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #333;
+      color: #fff;
+      padding: 1em;
+      font-size: 0.9em;
+      z-index: 9999;
+      display: none;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    "
+    class="d-flex"
+  >
+    <div>
+      This site uses cookies for analytics via Statcounter.
+      <a href="https://statcounter.com" target="_blank" style="color: #ffd700"
+        >Learn more</a
+      >.
+    </div>
+    <button
+      id="accept-cookies"
+      style="
+        background: #ffd700;
+        color: #333;
+        border: none;
+        padding: 0.5em 1em;
+        margin-left: 1em;
+        cursor: pointer;
+        font-weight: bold;
+      "
+    >
+      Accept
+    </button>
+  </div>
+  <!-- cookie consent code -->
+  <script src="/src/cookie-consent.js"></script>
+  <script src="/src/index.js"></script>
 </body>
