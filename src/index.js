@@ -9,12 +9,6 @@ frontEnd.addEventListener("mouseleave", hideImageFrontEnd);
 arch.addEventListener("mouseover", showImageArch);
 arch.addEventListener("mouseleave", hideImageArch);
 
-//sectionTitle.addEventListener("mouseover", whiteText);
-
-//function whiteText() {
-// sectionTitle.classList.add("white-text");
-//}
-
 function showImageFrontEnd() {
   frontEnd.classList.add("frontend-link-hover");
 }
